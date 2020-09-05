@@ -8,7 +8,7 @@ end
 
 def update_counting_hash(hash, key)
   if key[value] == nil
-    key => value = 1
+    :key => 1
   else #key/value you pair exists increment by 1
     key[value] += 1
   end
