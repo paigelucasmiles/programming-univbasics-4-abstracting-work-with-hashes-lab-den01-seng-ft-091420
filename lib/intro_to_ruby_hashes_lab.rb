@@ -9,9 +9,8 @@ end
 def update_counting_hash(hash, key)
   #create a new value pair setting the value to 1
   if key[value] == nil
-    
+    key[value] += 1
   else #key/value you pair exists increment by 1
-    
-    
+    key => value = 1
   end
 end
