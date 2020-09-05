@@ -7,9 +7,11 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  if 
-    #key/value you pair exists increment by 1
-  else 
-    #create a new value pair setting the value to 1
+  #create a new value pair setting the value to 1
+  if key[value] == nil
+    
+  else #key/value you pair exists increment by 1
+    
+    
   end
 end
