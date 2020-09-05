@@ -7,8 +7,8 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  if key[value] == nil
-    :key => 1
+  if hash[key]
+    key => 1
   else #key/value you pair exists increment by 1
     key[value] += 1
   end
